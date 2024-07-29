@@ -13,8 +13,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Profile
       name={"Manish Chaudhari"}
       age={31}
-      bio={"Hi I'm currently learning building a web application using React."}
+      bio={
+        "Hi I'm currently learning to design and build a web application using React."
+      }
     />
-    <Button label={"Hire!"} />
+    <Button label={"Conect!"} />
   </React.StrictMode>
 );

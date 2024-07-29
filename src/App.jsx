@@ -3,7 +3,7 @@ import Header from "./header";
 
 function App() {
   return (
-    <div>
+    <div className="profile">
       <Header title={"Bio"} />
     </div>
   );
