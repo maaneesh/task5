@@ -1,11 +1,14 @@
 import "./App.css";
-import Header from "./header";
+import Header from "./components/header";
+import View from "./components/view";
+import Footer from "./components/footer";
+import "./index.css";
 
 function App() {
   return (
-    <div className="profile">
-      <Header title={"Bio"} />
-    </div>
+    <>
+      <View />
+    </>
   );
 }
 
