@@ -2,13 +2,12 @@ import "./App.css";
 import Header from "./components/header";
 import View from "./components/view";
 import Footer from "./components/footer";
-import "./index.css";
-
+import "./styles/index.css";
 function App() {
   return (
-    <>
+    <div>
       <View />
-    </>
+    </div>
   );
 }
 
