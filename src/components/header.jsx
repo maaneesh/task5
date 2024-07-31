@@ -1,11 +1,32 @@
 import React from "react";
 
-function Header() {
+const Header = () => {
   return (
-    <div className="my-4 px-2 py-4 font-bold text-slate-50 bg-gray-600">
-      Header
-    </div>
+    <header className="bg-blue-500 text-white py-4 px-6 shadow-lg">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-bold">My Website</h1>
+        <nav>
+          <ul className="flex space-x-4">
+            <li>
+              <a href="#" className="hover:text-blue-200">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-200">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-200">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
-}
+};
 
 export default Header;
