@@ -5,8 +5,10 @@ import Footer from "./components/footer";
 import "./styles/index.css";
 function App() {
   return (
-    <div>
+    <div className="justify-center">
+      <Header />
       <View />
+      <Footer />
     </div>
   );
 }
